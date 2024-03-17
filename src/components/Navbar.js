@@ -39,7 +39,10 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <img src={logo} className="img-fluid logo" alt="brand" />
+        <h3 className='font-bold text-lg sm:text-3xl md:text-xl img-fluid logo' style={{ color: '#cd5ff8' }}>
+     <strong>Harinash</strong>
+  </h3>
+
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -91,8 +94,6 @@ function NavBar() {
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
             </Nav.Item>
-
-            
           </Nav>
         </Navbar.Collapse>
       </Container>
