@@ -50,7 +50,7 @@ function Projects() {
               isBlog={false}
               types={["PHP", "MySQL", "JS"]}
               title="H-Library"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
+              description="H-Library is a web based library management system which allow members reserved books in advance and then pick it up physically from the library. Members can search and filter the books through the system, share their reviews and ratings for a specific book and even view their current penalties. "
               ghLink="https://github.com/Harinash/H-Library"
               // demoLink="https://editor.soumya-jit.tech/"              
             />
@@ -60,9 +60,9 @@ function Projects() {
             <ProjectCard
               imgPath={cinemate}
               isBlog={false}
-              types={["React.JS"]}
+              types={["React.JS", "TaildwindCSS"]}
               title="Cinemate"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
+              description="Cinemate is a web app to display all the popular, top rated and upcoming movies. The data for all the movie details is fetched by using the TMDB API. This small project allow me to understand more about react hooks and how to deploy projects in Netlify."
               ghLink="https://github.com/Harinash/cinemate"
               demoLink="https://cinemate-hari.netlify.app/"
             />
@@ -72,10 +72,10 @@ function Projects() {
             <ProjectCard
               imgPath={taskmate}
               isBlog={false}
-              types={["React.JS"]}
+              types={["React.JS", "TaildwindCSS"]}
               title="Taskmate"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              // ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+              description="Taskmate is web app which represents an online todo app. You can add, edit and remove tasks. It also has a theme to change the background color of the site and this small project allowed me to understand the basics of React JS."
+              ghLink="https://github.com/Harinash/Taskmate"
               demoLink="https://taskmate-hari.netlify.app/" 
             />
           </Col>
