@@ -2,12 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import taskmate from "../../Assets/Projects/taskmate.PNG";
+import krunker from "../../Assets/Projects/krunker.png";
+import mexpense from "../../Assets/Projects/Capture.PNG";
+import hlibrary from "../../Assets/Projects/hlibrary.PNG";
+import cinemate from "../../Assets/Projects/cinemate.PNG";
 
 function Projects() {
   return (
@@ -23,8 +22,9 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={krunker}
               isBlog={false}
+              types={["PHP", "MYSQl", "JS"]}
               title="Krunker Idea Portal"
               description="The Krunker Idea Portal is a web-based forum tailored for school institution staff to share and discuss improvement ideas. The system incorporates different user roles, each with its own features. I gained experience in web development, database design, and user authentication, contributing to my proficiency in creating interactive and role-based web applications with a basic of PHP."
               ghLink="https://github.com/KrunkerOG-COMP1640/COMP1640_CW-krunkerOG"
@@ -34,8 +34,9 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={mexpense}
               isBlog={false}
+              types={["JS", "SQLite", "MobileUI"]}
               title="M-Expense"
               description="M-Expense is a mobile app designed to streamline the process of work trip expense claims for company staff. Users can conveniently add multiple expense types under a single trip. This project has enhanced my mobile app development skills just by using web technologies and convert it to mobile app."
               ghLink="https://github.com/Harinash/M-Expense"
@@ -45,8 +46,9 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={hlibrary}
               isBlog={false}
+              types={["PHP", "MySQL", "JS"]}
               title="H-Library"
               description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
               ghLink="https://github.com/Harinash/H-Library"
@@ -56,8 +58,9 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={cinemate}
               isBlog={false}
+              types={["React.JS"]}
               title="Cinemate"
               description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
               ghLink="https://github.com/Harinash/cinemate"
@@ -67,8 +70,9 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={taskmate}
               isBlog={false}
+              types={["React.JS"]}
               title="Taskmate"
               description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
               // ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
