@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/myAvatar.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -16,19 +16,20 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              Let me <span className="purple"> Introduce </span> Myself
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+             Since I was a kid, I have loved programming and have a keen interest on learning more about programming as the digital world is growing tremendously.
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> C++, Javascript and Go. </b>
+                <b className="purple"> HTML, CSS, Javascript and PHP.</b>
               </i>
               <br />
+              <br />My programming skills and learning experience have expose me to be able create a few projects that you can check it out.
               <br />
-              My field of Interest's are building new &nbsp;
+              <br />
+              {/* My field of Interest's are building new &nbsp;
               <i>
                 <b className="purple">Web Technologies and Products </b> and
                 also in areas related to{" "}
@@ -49,18 +50,18 @@ function Home2() {
               &nbsp; like
               <i>
                 <b className="purple"> React.js and Next.js</b>
-              </i>
+              </i> */}
             </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={myImg} className="img-fluid rounded-circle" alt="avatar" style={{marginTop: '-40px'}} />
             </Tilt>
           </Col>
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
+            <h1>Find Me On</h1>
             <p>
               Feel free to <span className="purple">connect </span>with me
             </p>
