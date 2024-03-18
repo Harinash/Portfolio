@@ -1,9 +1,9 @@
 <h2 align="center">
   Portfolio Website<br/>
-  <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a>
+  <a href="https://soumyajit.vercel.app/" target="_blank">harinash.com</a>
 </h2>
 <div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
+  <img alt="Demo" src="./Images/readme.PNG" />
 </div>
 
 <br/>
@@ -18,7 +18,7 @@
 
 </center>
 
-Welcome to my portfolio website, <a href="#" target="_blank">#</a>, where I can showcase my projects, tell you more about me, and what I am looking for. Last but not least, this is where you can take a look at my resume, my LinkedIn and other profiles, and ways to contact me.<br/>
+Welcome to my portfolio website, <a href="#" target="_blank">harinash.com</a>, where I can showcase my projects, tell you more about me, and what I am looking for. Last but not least, this is where you can take a look at my resume, my LinkedIn and other profiles, and ways to contact me.<br/>
 
 ## TL;DR
 
