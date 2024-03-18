@@ -5,23 +5,24 @@ import Particle from "./Particle";
 export const Contact = () => {
     return (
         <Container fluid className="project-section">
-          <Particle />
+          {/* <Particle /> */}
           <Container>
             <h1 className="project-heading">
-              My Recent <strong className="purple">Works </strong>
+                Interested to collaborate with me? Send me a message 😁
+              {/* My Recent <strong className="purple">Works </strong> */}
             </h1>
-            <p style={{ color: "white" }}>
+            {/* <p style={{ color: "white" }}>
               Here are a few projects I've worked on recently.
-            </p>
+            </p> */}
             <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
 
-            <div name='contact' className='w-full h-screen bg-dark flex justify-center items-center p-4'>
+            <div name='contact' className='w-full h-screen  flex justify-center items-center p-4'>
       <Container className='flex flex-col max-w-600 w-full'>
         {/* <div className='pb-8'>
           <p className='text-4xl font-bold inline border-b-4 border-pink-600 text-light'>Contact</p>
           <p className='text-light py-4'>// Submit the form below or shoot me an email - vutukuri.kumar192st.niituniversity.in</p>
         </div> */}
-        <Form method='POST' action="https://getform.io/f/a699a1b2-f225-434e-b317-1fbbde8e006c">
+        <Form method='POST' action="https://formspree.io/f/mgegladl">
           <Form.Group controlId="formName">
             <Form.Control type="text" placeholder="Name" name="name" className='bg-light p-2' />
           </Form.Group>
