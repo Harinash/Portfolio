@@ -36,7 +36,7 @@ function ProjectCards(props) {
       {props.types && props.types.length > 0 && (
         <div className="p-2"> {/* Add padding to create space */}
           {props.types.map((type, index) => (
-            <Badge key={index} className="mr-2 rounded custom-badge">
+            <Badge key={index} bg="#ffb6c1" className="mr-2 rounded custom-badge">
               {type}
             </Badge>
           ))}
