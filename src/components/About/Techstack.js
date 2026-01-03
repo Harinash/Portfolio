@@ -3,17 +3,16 @@ import { Col, Row } from "react-bootstrap";
 // import { CgCPlusPlus } from "react-icons/cg";
 import {
   DiJavascript1,
-  DiReact,
   DiBootstrap,
-  DiDotnet,
-  DiPython,
-  DiJava,
+  DiCodeigniter,
+  DiMysql,
 } from "react-icons/di";
 import {
   SiLaravel,
-  SiApachecordova,
   SiPhp,
   SiTailwindcss,
+  SiNuxtdotjs,
+  SiVuedotjs,
 } from "react-icons/si";
 // import { TbBrandGolang } from "react-icons/tb";
 
@@ -30,10 +29,7 @@ function Techstack() {
         <SiLaravel />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiDotnet />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+        <SiVuedotjs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiBootstrap />
@@ -42,13 +38,13 @@ function Techstack() {
         <SiTailwindcss />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiApachecordova />
+        <SiNuxtdotjs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
+        <DiCodeigniter />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+        <DiMysql />
       </Col>
     </Row>
   );

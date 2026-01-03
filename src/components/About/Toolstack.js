@@ -6,7 +6,12 @@ import {
   SiGithub,
   SiGitlab,
   SiWindows,
+  SiPostman,
 } from "react-icons/si";
+
+import {
+  
+} from "react-icons/di";
 
 function Toolstack() {
   return (
@@ -25,6 +30,9 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiNetlify />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPostman />
       </Col>
     </Row>
   );

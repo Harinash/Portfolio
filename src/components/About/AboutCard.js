@@ -11,7 +11,7 @@ function AboutCard() {
             Hi I'm <span className="purple">Harinash from </span>
            <span className="purple"> Kuala Lumpur, Malaysia.</span>
             <br />
-            I am currently a fresh IT Grad and looking for Junior Developer role.
+            I am currently a Junior Web Developer.
             <br />
             I have completed Bsc (Hons) in Computing at Segi College Kuala Lumpur in December 2023.
             <br />
